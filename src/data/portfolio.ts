@@ -1,8 +1,11 @@
+import resumeAsset from "@/assets/resume.pdf.asset.json";
+
 export const contact = {
-  email: "amruta@example.com",
-  linkedin: "https://linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
-  resume: "/resume.pdf",
+  email: "amrutabhokare4@gmail.com",
+  phone: "+91 93591 60678",
+  linkedin: "https://linkedin.com/in/amrutabhokare",
+  github: "https://github.com/Amruta1809",
+  resume: resumeAsset.url,
 };
 
 export const navLinks = [

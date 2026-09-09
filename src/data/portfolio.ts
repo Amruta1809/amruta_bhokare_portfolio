@@ -62,44 +62,6 @@ export const projects: Project[] = [
     tags: ["Python", "PostgreSQL", "pgvector", "OpenRouter", "Streamlit", "RAG"],
     github: contact.github,
   },
-  {
-    category: "NLP / ML",
-    title: "NLP Facebook Caption Analysis",
-    description:
-      "An NLP application for extracting and analyzing Facebook captions and classifying text.",
-    tags: ["Python", "NLP", "spaCy", "NLTK", "scikit-learn", "Flask"],
-    github: contact.github,
-    metrics: [
-      { label: "Accuracy", value: "88%" },
-      { label: "Precision", value: "85%" },
-      { label: "Recall", value: "86%" },
-      { label: "F1 Score", value: "85.5%" },
-    ],
-  },
-  {
-    category: "ML",
-    title: "Loan Prediction",
-    description:
-      "A machine learning project that predicts loan approval based on applicant information.",
-    tags: ["Python", "Pandas", "NumPy", "scikit-learn", "Machine Learning"],
-    github: contact.github,
-  },
-  {
-    category: "App",
-    title: "Language Translator & Detector",
-    description:
-      "An application that detects the language of input text and translates text between languages.",
-    tags: ["Python", "NLP", "APIs"],
-    github: contact.github,
-  },
-  {
-    category: "Data",
-    title: "Rainfall Trend Analysis",
-    description:
-      "A data analysis project focused on analyzing rainfall patterns and long-term trends.",
-    tags: ["Python", "Pandas", "NumPy", "Matplotlib"],
-    github: contact.github,
-  },
 ];
 
 export const skillGroups = [

@@ -70,8 +70,14 @@
 }
 
 :root {
+  --ink: #17191d;
+  --ink-2: #212429;
+  --paper: #f4f4f0;
+  --paper-2: #e9e9e3;
+  --accent-2: #f0a868;
+  --line: #d6d6cf;
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: var(--paper);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);

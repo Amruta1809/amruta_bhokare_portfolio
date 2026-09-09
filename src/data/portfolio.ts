@@ -39,19 +39,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    category: "AI / RAG",
+    category: "Agentic AI",
     title: "Stock Research Agent",
     description:
-      "An AI-powered research assistant that helps analyze and retrieve information related to stocks and financial data.",
-    tags: ["Python", "AI", "APIs", "LLMs", "RAG"],
+      "A 4-agent LangChain + LangGraph pipeline (News Fetcher → Sentiment Analyzer → Pattern Analyzer → Report Generator) delivering BUY/HOLD/SELL research reports from live web data via yfinance and DuckDuckGo in under 20 seconds, with 5 interactive Plotly visualizations (candlesticks with MA overlays, RSI, sentiment gauge) on a Streamlit dashboard supporting NYSE and NSE tickers.",
+    tags: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "yfinance",
+      "OpenRouter",
+      "Plotly",
+      "Streamlit",
+    ],
     github: contact.github,
   },
   {
     category: "AI / RAG",
-    title: "Legal AI Chatbot",
+    title: "Indian Legal AI Assistant",
     description:
-      "A legal question-answering chatbot that retrieves from a legal knowledge base and uses an LLM to generate contextual answers.",
-    tags: ["Python", "RAG", "LLM", "Embeddings", "Database"],
+      "A RAG-based legal assistant for Indian law using pgvector semantic search plus keyword retrieval to generate structured, citation-backed answers via an OpenRouter LLM. Supports multilingual queries in regional Indian languages and includes a searchable laws explorer for browsing and filtering the indexed legal database.",
+    tags: ["Python", "PostgreSQL", "pgvector", "OpenRouter", "Streamlit", "RAG"],
     github: contact.github,
   },
   {

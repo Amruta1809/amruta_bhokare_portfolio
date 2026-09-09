@@ -103,40 +103,61 @@ export const projects: Project[] = [
 ];
 
 export const skillGroups = [
+  { title: "Languages", items: ["Python", "SQL", "JavaScript"] },
+  { title: "Frontend", items: ["HTML", "CSS", "React.js", "Bootstrap"] },
   {
-    title: "Programming",
-    items: ["Python", "Java", "SQL", "HTML", "CSS", "JavaScript"],
-  },
-  { title: "Backend", items: ["FastAPI", "Django REST Framework", "REST APIs"] },
-  {
-    title: "AI / ML",
+    title: "Backend & APIs",
     items: [
-      "Machine Learning",
-      "NLP",
-      "Generative AI",
-      "RAG",
-      "LLMs",
-      "Embeddings",
-      "scikit-learn",
-      "TensorFlow",
-      "PyTorch",
+      "Django REST Framework",
+      "FastAPI",
+      "REST APIs",
+      "python-dotenv",
+      "Mailparser",
     ],
   },
-  { title: "Data", items: ["Pandas", "NumPy", "Matplotlib", "Power BI"] },
-  { title: "Tools", items: ["Git", "GitHub", "Streamlit", "Flask", "Selenium"] },
+  {
+    title: "AI / LLMs",
+    items: [
+      "LangChain",
+      "LangGraph",
+      "OpenRouter API",
+      "Gemini API (2.0 Flash)",
+      "OpenAI SDK",
+      "Hugging Face",
+      "Prompt Engineering",
+      "n8n",
+    ],
+  },
+  {
+    title: "Databases",
+    items: ["PostgreSQL", "MySQL", "MongoDB", "pgvector", "Supabase", "Firebase"],
+  },
+  {
+    title: "Cloud & Tools",
+    items: [
+      "Netlify",
+      "Streamlit Cloud",
+      "Docker",
+      "yfinance",
+      "Git",
+      "GitHub",
+      "Jupyter Notebook",
+      "VS Code",
+    ],
+  },
 ];
 
 export const certifications = [
-  "Google Cloud Data Analytics Certificate",
-  "Cisco Cybersecurity Certificate",
-  "AWS Cloud Foundation Certificate",
+  "Claude Code 101 — Anthropic (June 2026)",
+  "Claude 101 — Anthropic (May 2026)",
+  "Python 3.4.3 — IIT Bombay (2023)",
 ];
 
 export const education = {
   degree: "B.Tech — Computer Science & Engineering (AI & Data Science)",
   institute: "DKTE's Textile and Engineering Institute, Ichalkaranji",
-  year: "Class of 2025",
-  cgpa: "CGPA 7.93",
+  year: "Dec 2021 — 2025",
+  cgpa: "CGPA 7.93 / 10",
 };
 
 export const profileSummary =

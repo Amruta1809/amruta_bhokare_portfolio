@@ -17,15 +17,14 @@ export const navLinks = [
 
 export const experience = {
   role: "Backend Developer Intern",
-  company: "Applied AI Consulting LLP",
+  company: "Applied AI Consulting (AAIC)",
+  location: "Pune, India · On-site",
   period: "Dec 2025 — Jun 2026",
   points: [
-    "Worked with the Product Development Team on real-time client projects.",
-    "Developed backend functionality using Python.",
-    "Handled API integration and database operations.",
-    "Contributed to an Agentic AI platform.",
-    "Built features for Greywind (inventory) and Koza (caregiver management).",
-    "Strengthened Python, backend, AI, problem-solving and teamwork skills.",
+    "Developed and enhanced full-stack web applications using Python, Django REST Framework, React.js and PostgreSQL.",
+    "Built key features for Greywind (Inventory Management System) and Koza (Caregiver Management Platform), including user management, workflows and database operations.",
+    "Contributed to OpsRabbit, an Agentic AI platform that monitors production systems, detects incidents, generates alerts, performs root-cause analysis and automates issue resolution.",
+    "Integrated REST APIs, optimized backend services and supported deployment of scalable production-ready applications.",
   ],
 };
 

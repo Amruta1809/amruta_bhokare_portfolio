@@ -56,6 +56,7 @@ export function Experience() {
                 <span className="font-mono text-xs text-ink/50">{experience.period}</span>
               </div>
               <p className="mt-1 text-sm text-accent font-medium">{experience.company}</p>
+              <p className="mt-0.5 text-xs text-ink/50">{experience.location}</p>
               <ul className="mt-4 grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-ink/70">
                 {experience.points.map((point) => (
                   <li key={point} className="flex gap-2">
@@ -229,6 +230,9 @@ export function Contact() {
               Resume
             </a>
           </div>
+          <p className="mt-6 font-mono text-xs text-paper/50">
+            {contact.email} · <a href={`tel:${contact.phone.replace(/\s/g, "")}`} className="hover:text-paper">{contact.phone}</a>
+          </p>
         </div>
       </div>
     </section>

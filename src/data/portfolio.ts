@@ -161,4 +161,7 @@ export const education = {
 };
 
 export const profileSummary =
+  "Python / AI developer with a B.Tech in CSE (AI & Data Science) and hands-on production experience building scalable backend systems and intelligent applications. During a six-month backend internship I shipped features across full-stack products using Python, Django REST Framework, React.js and PostgreSQL, and contributed to an Agentic AI incident-response platform. I am looking for opportunities as an AI Engineer, Python Developer or Backend Developer.";
+
+export const legacyProfileSummary =
   "Computer Science graduate specializing in AI & Data Science with hands-on backend development experience. I recently completed a 6-month Backend Developer internship where I worked on real-time client projects involving Python, APIs, databases and AI-based platforms. I am passionate about building practical AI and backend solutions and currently looking for opportunities as an AI Engineer, Python Developer or Backend Developer.";

@@ -230,6 +230,9 @@ export function Contact() {
               Resume
             </a>
           </div>
+          <p className="mt-6 font-mono text-xs text-paper/50">
+            {contact.email} · <a href={`tel:${contact.phone.replace(/\s/g, "")}`} className="hover:text-paper">{contact.phone}</a>
+          </p>
         </div>
       </div>
     </section>

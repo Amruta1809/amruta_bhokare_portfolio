@@ -63,7 +63,7 @@ export function Hero() {
                 />
                 <div className="absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-ink via-ink/70 to-transparent p-5">
                   <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-accent-2">
-                    AI · Python · Backend
+                    AI · Python
                   </p>
                   <p className="mt-1 text-sm text-paper/80">
                     Building intelligent, scalable systems

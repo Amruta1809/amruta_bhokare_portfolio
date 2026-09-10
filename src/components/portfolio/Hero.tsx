@@ -1,4 +1,5 @@
 import { contact } from "@/data/portfolio";
+import heroTech from "@/assets/hero-tech.jpg";
 
 export function Hero() {
   return (
@@ -47,20 +48,26 @@ export function Hero() {
                 </a>
               </div>
             </div>
-            <div className="block anim-rise-2" aria-hidden="true">
-              <div className="relative mx-auto size-52 grid place-items-center">
-                <div className="absolute inset-0 rounded-full ring-1 ring-white/10" />
-                <div className="absolute inset-5 rounded-full ring-1 ring-white/10 slow-spin" />
-                <div className="absolute inset-10 rounded-full ring-1 ring-accent/30" />
-                <div className="relative size-32 overflow-hidden rounded-full bg-ink ring-2 ring-accent/40 grid place-items-center">
-                  <img
-                    src="/profile.jpeg"
-                    alt="Amruta Bhokare"
-                    className="size-full object-cover"
-                    onError={(event) => {
-                      event.currentTarget.style.display = "none";
-                    }}
-                  />
+            <div className="anim-rise-2">
+              <div className="relative mx-auto max-w-sm overflow-hidden rounded-[min(1.5vw,20px)] ring-1 ring-white/15 shadow-2xl shadow-black/40">
+                <div
+                  className="absolute inset-0 rounded-[inherit] pointer-events-none ring-1 ring-accent/20 z-10"
+                  aria-hidden="true"
+                />
+                <img
+                  src={heroTech}
+                  alt="Abstract neural network and code visualization representing AI engineering"
+                  width={1024}
+                  height={1024}
+                  className="block w-full h-auto object-cover aspect-square"
+                />
+                <div className="absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-ink via-ink/70 to-transparent p-5">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-accent-2">
+                    AI · Python · Backend
+                  </p>
+                  <p className="mt-1 text-sm text-paper/80">
+                    Building intelligent, scalable systems
+                  </p>
                 </div>
               </div>
             </div>

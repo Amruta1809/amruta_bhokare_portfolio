@@ -13,14 +13,14 @@ export function Hero() {
           <div className="relative grid lg:grid-cols-[1.35fr_1fr] gap-10 items-center">
             <div className="anim-rise">
               <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-2">
-                Portfolio — 2025
+  
               </p>
               <h1 className="mt-5 text-3xl lg:text-6xl font-semibold leading-tight tracking-tight max-w-[24ch] text-balance">
                 Hi, I&apos;m Amruta Bhokare
               </h1>
               <p className="mt-4 text-lg lg:text-xl text-paper/80 max-w-[40ch] text-pretty">
                 AI Engineer <span className="text-paper/40">|</span> Python Developer{" "}
-                <span className="text-paper/40">|</span> Backend Developer
+                <span className="text-paper/40"></span>
               </p>
               <p className="mt-4 text-sm lg:text-base text-paper/60 max-w-[46ch] text-pretty">
                 Building intelligent applications and scalable backend solutions.
@@ -47,13 +47,20 @@ export function Hero() {
                 </a>
               </div>
             </div>
-            <div className="hidden lg:block anim-rise-2" aria-hidden="true">
+            <div className="block anim-rise-2" aria-hidden="true">
               <div className="relative mx-auto size-52 grid place-items-center">
                 <div className="absolute inset-0 rounded-full ring-1 ring-white/10" />
                 <div className="absolute inset-5 rounded-full ring-1 ring-white/10 slow-spin" />
                 <div className="absolute inset-10 rounded-full ring-1 ring-accent/30" />
-                <div className="size-20 rounded-2xl bg-ink ring-1 ring-white/15 grid place-items-center font-mono text-accent-2 text-xs tracking-widest">
-                  AI
+                <div className="relative size-32 overflow-hidden rounded-full bg-ink ring-2 ring-accent/40 grid place-items-center">
+                  <img
+                    src="/profile.jpeg"
+                    alt="Amruta Bhokare"
+                    className="size-full object-cover"
+                    onError={(event) => {
+                      event.currentTarget.style.display = "none";
+                    }}
+                  />
                 </div>
               </div>
             </div>

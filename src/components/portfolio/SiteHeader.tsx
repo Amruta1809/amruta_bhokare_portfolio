@@ -5,7 +5,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 bg-paper/90 backdrop-blur ring-1 ring-ink/10">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="font-semibold text-[15px] tracking-tight">
-          Amruta <span className="text-ink/40">Bhokare</span>
+          Amruta <span className="text-ink/40">Bhauso Bhokare</span>
         </a>
         <nav aria-label="Main" className="hidden md:flex items-center gap-8 text-sm text-ink/70">
           {navLinks.map((link) => (

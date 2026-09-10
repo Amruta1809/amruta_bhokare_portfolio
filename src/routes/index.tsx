@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Amruta Bhokare",
-          jobTitle: "AI Engineer | Python Developer | Backend Developer",
+          jobTitle: "AI Engineer | Python Developer",
           alumniOf: "DKTE's Textile and Engineering Institute, Ichalkaranji",
           knowsAbout: ["Python", "FastAPI", "Machine Learning", "NLP", "RAG", "LLMs"],
         }),

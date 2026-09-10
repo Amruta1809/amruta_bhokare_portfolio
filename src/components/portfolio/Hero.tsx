@@ -1,4 +1,5 @@
 import { contact } from "@/data/portfolio";
+import heroTech from "@/assets/hero-tech.jpg";
 
 export function Hero() {
   return (
